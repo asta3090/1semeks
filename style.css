@@ -1,0 +1,233 @@
+img {
+	width: 100%;
+}
+
+
+/* --------------  FORSIDE  ---------------  */
+
+body {
+	background-color: white;
+
+}
+
+#portfolie {
+	max-width: 1200px;
+	margin: auto;
+
+}
+
+
+#portfolie .container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+#portfolie .column {
+	flex-grow: 1;
+	flex-basis: 350px;
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+}
+
+@media screen and (max-width: 735px) {
+	#portfolie .column {
+		flex-grow: 1;
+		flex-basis: 350px;
+		display: flex;
+		flex-direction: row;
+		margin: 20px;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
+#portfolie .txt {
+	align-content: center;
+	display: flex;
+	color: #fff;
+	position: absolute;
+	z-index: 1;
+	pointer-events: none;
+}
+
+
+
+/* ----------  ENKELTE  BILLEDER PÅ FORSIDEN --------------  */
+
+#portfolie .felt1 {
+	background-image: url(pictures/1.jpeg);
+	background-size: cover;
+	width: 360px;
+	height: 360px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+
+}
+
+#portfolie .overlay1 {
+	position: absolute;
+	background-color: rgba(167, 103, 18, 0.5);
+	width: 100%;
+	height: 100%;
+}
+
+
+
+#portfolie .overlay1:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+#portfolie .felt2 {
+	background-image: url(pictures/2.jpeg);
+	background-size: 100%;
+	width: 360px;
+	height: 360px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+#portfolie .overlay2 {
+	position: absolute;
+	background-color: rgba(186, 91, 157, 0.5);
+	width: 100%;
+	height: 100%;
+}
+
+
+
+#portfolie .overlay2:hover {
+	background-color: rgb(0, 0, 0, 0);
+	filter: blur(50px)
+}
+
+
+
+
+#portfolie .felt3 {
+	background-image: url(pictures/3.jpeg);
+	background-size: 100%;
+	width: 360px;
+	height: 360px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+#portfolie .overlay3 {
+	position: absolute;
+	background-color: rgba(53, 98, 168, 0.5);
+	width: 100%;
+	height: 100%;
+}
+
+
+
+#portfolie .overlay3:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#portfolie .felt4 {
+	background-image: url(pictures/4.jpeg);
+	background-size: 100%;
+	width: 360px;
+	height: 360px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+#portfolie .overlay4 {
+	position: absolute;
+	background-color: rgba(53, 98, 168, 0.5);
+	width: 100%;
+	height: 100%;
+}
+
+
+
+#portfolie .overlay4:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+/* --------------   FONTS: --------------------    */
+
+h3 {
+	font-size: 2.3rem;
+	font-family: facto,
+		sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+h5 {
+	font-size: 5.5rem;
+	font-family: facto,
+		sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+h6 {
+	font-family: facto,
+		sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.3rem;
+	margin: 0;
+
+}
+
+#portfolie a {
+	font-family: facto,
+		sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: black;
+	text-decoration: none;
+}
+
+#portfolie a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+p {
+	font-family: facto,
+		sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1rem;
+}
+
+a {
+	color: black;
+
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: brown;
+}
