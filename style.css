@@ -2,11 +2,18 @@ img {
 	width: 100%;
 }
 
-/* --------------  FORSIDE  ----- */
+
+
+/* ------------ MEDIA QUERY -------------- */
+
+
+
+/* --------------  PORTFOLIE  ----- */
 
 
 body {
 	background-color: white;
+	@media screen and (max-width: 400px) @media screen and (max-width: 1217px)
 }
 
 
@@ -72,23 +79,17 @@ body {
 
 }
 
-.txt {
-	color: white;
-	position: relative;
-	pointer-events: none;
-	text-align: center;
-	margin-bottom: 100px;
-}
+
 
 #portfolie .felt1 {
 	background-image: url(pictures/1.jpeg);
+
 	background-size: cover;
 	width: 45vw;
 	height: 100%;
 	flex-grow: 1;
 	flex-basis: 400px;
 }
-
 
 #portfolie .felt2 {
 	background-image: url(pictures/2.jpeg);
@@ -100,6 +101,7 @@ body {
 
 
 }
+
 
 
 #portfolie .felt3 {
@@ -122,19 +124,63 @@ body {
 }
 
 
-/*/ FONT /*/
+/*/ OVERLAYS /*/
 
-h3 {
-	font-size: 2.1rem;
-	font-family: sans-serif;
-	font-weight: 200;
+#portfolie .overlay1 {
+	position: absolute;
+	background-color: rgba(192, 192, 192, 0.5);
+	width: 45%;
+	height: 48.5%;
 }
+
+#portfolie .overlay1:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#portfolie .overlay2 {
+	position: absolute;
+	background-color: rgba(192, 192, 192, 0.5);
+	width: 45%;
+	height: 48.5%;
+}
+
+#portfolie .overlay2:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#portfolie .overlay3 {
+	position: absolute;
+	background-color: rgba(192, 192, 192, 0.5);
+	width: 45%;
+	height: 48.5%;
+}
+
+#portfolie .overlay3:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#portfolie .overlay4 {
+	position: absolute;
+	background-color: rgba(192, 192, 192, 0.5);
+	width: 45%;
+	height: 48.5%;
+}
+
+#portfolie .overlay4:hover {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+
+
 
 /*/ HOVER /*/
 
 #portfolie a {
-	font-family: facto,
-		sans-serif;
+	font-family: montserrat, sans-serif;
+
+	font-weight: 400;
+
+	font-style: normal;
 	font-weight: 300;
 	font-style: normal;
 	color: black;
@@ -147,15 +193,6 @@ h3 {
 }
 
 
-
-
-p {
-	font-family: inherit;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 1rem;
-}
-
 a {
 	color: black;
 
@@ -166,5 +203,119 @@ a:visited {
 }
 
 a:hover {
-	color: brown;
+	color: pink;
+}
+
+
+/*/ FONT /*/
+
+#portfolie h3 {
+	font-size: 1.3rem;
+	font-family: montserrat, sans-serif;
+	font-weight: 80;
+	font-style: normal;
+	color: white;
+	text-align: center;
+	top: 150px;
+	position: relative;
+
+}
+
+
+
+
+/* OM MIG */
+
+html {
+	font-family: montserrat, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+
+img {
+	width: 100%;
+}
+
+/*--------------------------CV--------------------*/
+
+
+
+#om_mig {
+	display: block;
+	background-color: rgba(255, 192, 203, 0.24);
+	background-size: contain;
+	/*
+    margin: 0;
+    padding: 0;
+*/
+	flex-grow: 2;
+	flex-basis: 1;
+
+}
+
+#om_mig h1 {
+	position: relative;
+	top: 3vw;
+	text-align: center;
+	font-weight: 100;
+	font-size: 1.5em;
+
+}
+
+#om_mig .box1 {
+
+	padding-bottom: 5vw;
+	text-align: center;
+	padding-left: 30vw;
+	padding-right: 30vw;
+	line-height: 2em;
+	padding-top: 2vw;
+	font-size: 1em;
+	flex-direction: row;
+	position: relative;
+	justify-content: space-between;
+
+}
+
+
+#om_mig .box2 {
+
+	padding-left: 20vw;
+	position: relative;
+	margin-right: 30vw;
+	left: 5vw;
+	top: -5vw;
+	display: block;
+	flex-direction: row;
+	flex-basis: 1;
+	flex-grow: 2;
+
+}
+
+
+/*----------------------foside----------------------*/
+
+.splash img {
+	width: 100%;
+	position: absolute;
+	top: 7vw;
+}
+
+.mitNavn {
+	position: relative;
+	left: 10vw;
+	top: 20vw;
+	color: white;
+	border-top: 1vw;
+
 }
