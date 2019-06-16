@@ -304,6 +304,74 @@ img {
 
 }
 
+/*ANIMATIONSTEMA*/
+
+#animation {
+	display: block;
+	background-color: rgba(255, 192, 203, 0.24);
+	background-size: contain;
+	/*
+    margin: 0;
+    padding: 0;
+*/
+	flex-grow: 2;
+	flex-basis: 1;
+
+}
+
+#animation h1 {
+	position: relative;
+	top: 1vw;
+	text-align: center;
+	font-weight: 100;
+	font-size: 2em;
+
+}
+
+#animation .box1 {
+
+	padding-bottom: 5vw;
+	text-align: center;
+	padding-left: 15vw;
+	padding-right: 15vw;
+	line-height: 2em;
+	padding-top: 2vw;
+	font-size: 1em;
+	flex-direction: row;
+	position: relative;
+	justify-content: space-between;
+
+}
+
+
+#animation .box2 {
+
+	padding-left: 20vw;
+	position: relative;
+	margin-right: 9vw;
+	left: -5vw;
+	top: -3vw;
+	display: block;
+	flex-direction: row;
+	flex-basis: 1;
+	flex-grow: 2;
+
+}
+
+/* unvisited link */
+#animation a:link {
+	color: cornflowerblue;
+}
+
+
+#animation a:visited {
+	color: violet;
+}
+
+#animation a:hover {
+	color: mediumslateblue;
+}
+
 
 
 /*----------------------foside
