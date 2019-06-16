@@ -253,7 +253,7 @@ img {
 
 #om_mig h1 {
 	position: relative;
-	top: 3vw;
+	top: 1vw;
 	text-align: center;
 	font-weight: 100;
 	font-size: 1.5em;
@@ -281,14 +281,29 @@ img {
 	padding-left: 20vw;
 	position: relative;
 	margin-right: 30vw;
-	left: 5vw;
-	top: -5vw;
+	left: 10vw;
+	top: -3vw;
 	display: block;
 	flex-direction: row;
 	flex-basis: 1;
 	flex-grow: 2;
 
 }
+
+.erfaring img {
+	padding-bottom: -10vw;
+	padding-bottom: -10vw;
+	padding-right: -10vw;
+	line-height: 10em;
+	padding-top: 3vw;
+	flex-direction: row;
+	position: relative;
+	flex-grow: 2;
+	flex-basis: 1;
+
+
+}
+
 
 
 /*----------------------foside
@@ -310,3 +325,213 @@ img {
 
 
 /*/
+
+
+
+/*Burgermenu*/
+
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* html {
+	font-size: 62.5%;
+	background-color: #bfbabe;
+
+}
+
+*/
+
+
+img {
+	width: 100%;
+}
+
+
+.hidden {
+	display: none;
+}
+
+nav {
+	justify-content: space-between;
+	display: flex;
+	background-color: #5d4954;
+	min-height: 5vw;
+	width: 100vw;
+}
+
+ul {
+	padding: 2;
+}
+
+/* Menu Mobil */
+
+#menuMobil a {
+	display: block;
+	text-decoration: none;
+	color: rgba(232, 231, 231, 0.96);
+	margin-top: 14vw;
+	margin-bottom: 10vw;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#menuknapMobil {
+	z-index: 10;
+	width: 8vw;
+	height: 8vw;
+	margin-right: 5vw;
+	margin-top: 4rem;
+}
+
+#menuMobil {
+	width: 50%;
+	top: 7.4vh;
+	right: 0;
+	min-height: 100vh;
+	position: absolute;
+	z-index: 6;
+	font-size: 2.5rem;
+	background-color: #5d4954;
+	transition: .3s;
+	text-align: center;
+	padding-bottom: 20vw;
+	transition: transform 2s ease-in;
+}
+
+
+#menuDesktop {
+	width: 100vw;
+	min-height: 2vw;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.navigation {
+	margin-top: 2vw;
+	letter-spacing: 3px;
+}
+
+#menuDesktop a {
+	text-decoration: none;
+	font-size: 1em;
+	color: rgba(232, 231, 231, 0.96);
+	padding: 4rem;
+	/*    font-family: 'Montserrat',
+    sans-serif;*/
+}
+
+
+/*.logo {
+    background-image: url(billeder/512x512.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 8vw;
+    height: 8vw;
+
+}*/
+
+.logo h4 {
+	font-size: 1em;
+	color: rgba(232, 231, 231, 0.96);
+	margin-top: 2vw;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 6px;
+}
+
+/*FOOTER
+
+footer {
+	width: 100vw;
+	height: 5vh;
+	background-color: #2d2d2f;
+	font-size: 1rem;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.96);
+	padding-top: 1rem;
+
+}
+**/
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+	.navigation {
+		display: none;
+
+	}
+
+	.navnTekst {
+		padding-top: 55vw;
+		text-align: center;
+		font-size: 2rem;
+	}
+
+
+
+	.logo h4 {
+		font-size: 1.5rem;
+		color: rgba(232, 231, 231, 0.96);
+		margin-top: 6vw;
+		font-family: 'Montserrat', sans-serif;
+		letter-spacing: 2px;
+		margin-left: 2vw;
+		padding-left: 0;
+
+	}
+
+
+	#menuknapMobil {
+		z-index: 10;
+		width: 8vw;
+		min-height: 12vw;
+		margin-top: 2vw;
+		margin-right: 4vw;
+		margin-bottom: 2vw;
+
+	}
+
+
+	#menuDesktop {
+		width: 100vw;
+		padding-right: 10rem;
+		min-height: 2vw;
+		display: flex;
+		justify-content: space-around;
+
+	}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	#menuMobil {
+		display: none;
+
+	}
+
+	#menuknapMobil {
+		display: none;
+
+	}
+
+	#menu.hidden {
+		transform: translateX(0);
+		opacity: 1;
+	}
+
+	#menu li {
+		display: inline-block;
+
+	}
+
+
+}
