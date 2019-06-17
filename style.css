@@ -1,18 +1,15 @@
 img {
-	width: 100%;
+	width: auto;
+	max-width: 100%;
+	height: auto;
 }
-
-
-
-/* ------------ MEDIA QUERY -------------- */
-
 
 
 /* --------------  PORTFOLIE  ----- */
 
 
 body {
-	background-color: white;
+	background-color: rgba(255, 192, 203, 0.24);
 	@media screen and (max-width: 400px) @media screen and (max-width: 1217px)
 }
 
@@ -23,8 +20,6 @@ body {
 	width: 100%;
 	height: 50vh;
 
-
-
 }
 
 
@@ -34,17 +29,14 @@ body {
 	width: 100%;
 	height: 50vh;
 
-
-
 }
 
 #portfolie .column1 {
-
 	flex-grow: 0;
-	flex-basis: 20px;
+	flex-basis: 2px;
 	display: flex;
-	margin-left: 2vw;
-	margin-bottom: 2vw;
+	margin-left: 3vw;
+	margin-top: 2vw;
 	text-align: center;
 
 }
@@ -53,8 +45,8 @@ body {
 	flex-grow: 0;
 	flex-basis: 20px;
 	display: flex;
-	margin-left: 2vw;
-	margin-bottom: 2vw;
+	margin-left: 3vw;
+	margin-top: 2vw;
 	text-align: center;
 
 }
@@ -63,8 +55,8 @@ body {
 	flex-grow: 0;
 	flex-basis: 20px;
 	display: flex;
-	margin-left: 2vw;
-	margin-bottom: 2vw;
+	margin-left: 3vw;
+	margin-top: 2vw;
 	text-align: center;
 
 }
@@ -73,8 +65,8 @@ body {
 	flex-grow: 0;
 	flex-basis: 20px;
 	display: flex;
-	margin-left: 2vw;
-	margin-bottom: 2vw;
+	margin-left: 3vw;
+	margin-top: 2vw;
 	text-align: center;
 
 }
@@ -82,9 +74,10 @@ body {
 
 
 #portfolie .felt1 {
-	background-image: url(pictures/1.jpeg);
-
+	position: relative;
+	background-image: url(pictures/stilartside.png);
 	background-size: cover;
+	background-position: center;
 	width: 45vw;
 	height: 100%;
 	flex-grow: 1;
@@ -92,8 +85,12 @@ body {
 }
 
 #portfolie .felt2 {
-	background-image: url(pictures/2.jpeg);
+	position: relative;
+	background-image: url(pictures/bbjob.png);
 	background-size: cover;
+	background-position: center;
+
+
 	width: 45vw;
 	height: 100%;
 	flex-grow: 1;
@@ -105,8 +102,10 @@ body {
 
 
 #portfolie .felt3 {
-	background-image: url(pictures/3.jpeg);
+	position: relative;
+	background-image: url(pictures/redesign.png);
 	background-size: cover;
+	background-position: center;
 	width: 45vw;
 	height: 100%;
 	flex-grow: 1;
@@ -114,13 +113,14 @@ body {
 }
 
 #portfolie .felt4 {
-	background-image: url(pictures/4.jpeg);
+	position: relative;
+	background-image: url(pictures/user.png);
 	background-size: cover;
+	background-position: center;
 	width: 45vw;
 	height: 100%;
 	flex-grow: 1;
 	flex-basis: 400px;
-
 }
 
 
@@ -129,8 +129,8 @@ body {
 #portfolie .overlay1 {
 	position: absolute;
 	background-color: rgba(192, 192, 192, 0.5);
-	width: 45%;
-	height: 48.5%;
+	width: 100%;
+	height: 100%;
 }
 
 #portfolie .overlay1:hover {
@@ -140,8 +140,8 @@ body {
 #portfolie .overlay2 {
 	position: absolute;
 	background-color: rgba(192, 192, 192, 0.5);
-	width: 45%;
-	height: 48.5%;
+	width: 100%;
+	height: 100%;
 }
 
 #portfolie .overlay2:hover {
@@ -151,8 +151,8 @@ body {
 #portfolie .overlay3 {
 	position: absolute;
 	background-color: rgba(192, 192, 192, 0.5);
-	width: 45%;
-	height: 48.5%;
+	width: 100%;
+	height: 100%;
 }
 
 #portfolie .overlay3:hover {
@@ -162,8 +162,8 @@ body {
 #portfolie .overlay4 {
 	position: absolute;
 	background-color: rgba(192, 192, 192, 0.5);
-	width: 45%;
-	height: 48.5%;
+	width: 100%;
+	height: 100%;
 }
 
 #portfolie .overlay4:hover {
@@ -189,7 +189,7 @@ body {
 #portfolie h3 {
 	font-size: 1.3rem;
 	font-family: montserrat, sans-serif;
-	font-weight: 80;
+	font-weight: ;
 	font-style: normal;
 	color: white;
 	text-align: center;
@@ -199,7 +199,6 @@ body {
 }
 
 .txt h3 {
-
 	border: 1px solid #fff;
 	border-left: 0;
 	border-right: 0;
@@ -240,7 +239,6 @@ img {
 
 #om_mig {
 	display: block;
-	background-color: rgba(255, 192, 203, 0.24);
 	background-size: contain;
 	/*
     margin: 0;
@@ -343,8 +341,146 @@ img {
 
 }
 
+#animation .col {}
 
 #animation .box2 {
+
+	padding-left: 20vw;
+	position: relative;
+	margin-right: 9vw;
+	left: -5vw;
+	top: -2vw;
+	display: block;
+	flex-direction: row;
+	flex-basis: 1;
+	flex-grow: 2;
+
+}
+
+
+#animation a:link {
+	color: cornflowerblue;
+}
+
+
+#animation a:visited {
+	color: violet;
+}
+
+#animation a:hover {
+	color: mediumslateblue;
+}
+
+/*CONTENTTEMA*/
+
+#content {
+	display: block;
+	background-color: rgba(255, 192, 203, 0.24);
+	background-size: contain;
+	/*
+    margin: 0;
+    padding: 0;
+*/
+	flex-grow: 2;
+	flex-basis: 1;
+
+}
+
+#content h1 {
+	position: relative;
+	top: 1vw;
+	text-align: center;
+	font-weight: 100;
+	font-size: 2em;
+
+}
+
+#content .box1 {
+
+	padding-bottom: 5vw;
+	text-align: center;
+	padding-left: 15vw;
+	padding-right: 15vw;
+	line-height: 2em;
+	padding-top: 2vw;
+	font-size: 1em;
+	flex-direction: row;
+	position: relative;
+	justify-content: space-between;
+
+}
+
+
+#content .box2 {
+
+	padding-left: 20vw;
+	position: relative;
+	margin-right: 9vw;
+	left: -5vw;
+	top: -3vw;
+	display: block;
+	flex-direction: row;
+	flex-basis: 1;
+	flex-grow: 2;
+
+}
+
+
+/* unvisited link */
+#content a:link {
+	color: cornflowerblue;
+}
+
+
+#content a:visited {
+	color: violet;
+}
+
+#content a:hover {
+	color: mediumslateblue;
+}
+
+/*UX*/
+
+#ux {
+	display: block;
+	background-color: rgba(255, 192, 203, 0.24);
+	background-size: contain;
+	/*
+    margin: 0;
+    padding: 0;
+*/
+	flex-grow: 2;
+	flex-basis: 1;
+
+}
+
+#ux h1 {
+	position: relative;
+	top: 1vw;
+	text-align: center;
+	font-weight: 100;
+	font-size: 2em;
+
+}
+
+#ux .box1 {
+
+	padding-bottom: 5vw;
+	text-align: center;
+	padding-left: 15vw;
+	padding-right: 15vw;
+	line-height: 2em;
+	padding-top: 2vw;
+	font-size: 1em;
+	flex-direction: row;
+	position: relative;
+	justify-content: space-between;
+
+}
+
+
+#ux .box2 {
 
 	padding-left: 20vw;
 	position: relative;
@@ -359,42 +495,117 @@ img {
 }
 
 /* unvisited link */
-#animation a:link {
+#ux a:link {
 	color: cornflowerblue;
 }
 
 
-#animation a:visited {
+#ux a:visited {
 	color: violet;
 }
 
-#animation a:hover {
+#ux a:hover {
+	color: mediumslateblue;
+}
+
+
+/*WEB*/
+
+#web {
+	display: block;
+	background-color: rgba(255, 192, 203, 0.24);
+	background-size: contain;
+	/*
+    margin: 0;
+    padding: 0;
+*/
+	flex-grow: 2;
+	flex-basis: 1;
+
+}
+
+#web h1 {
+	position: relative;
+	top: 1vw;
+	text-align: center;
+	font-weight: 100;
+	font-size: 2em;
+
+}
+
+#web .box1 {
+
+	padding-bottom: 5vw;
+	text-align: center;
+	padding-left: 15vw;
+	padding-right: 15vw;
+	line-height: 2em;
+	padding-top: 2vw;
+	font-size: 1em;
+	flex-direction: row;
+	position: relative;
+	justify-content: space-between;
+
+}
+
+
+#web .box2 {
+
+	padding-left: 20vw;
+	position: relative;
+	margin-right: 9vw;
+	left: -5vw;
+	top: -3vw;
+	display: block;
+	flex-direction: row;
+	flex-basis: 1;
+	flex-grow: 2;
+
+}
+
+/* unvisited link */
+#web a:link {
+	color: cornflowerblue;
+}
+
+
+#web a:visited {
+	color: violet;
+}
+
+#web a:hover {
 	color: mediumslateblue;
 }
 
 
 
-/*----------------------foside
-
-.splash img {
-	width: 100%;
-	position: absolute;
-	top: 7vw;
-}
-
-.mitNavn {
-	position: relative;
-	left: 10vw;
-	top: 20vw;
-	color: white;
-	border-top: 1vw;
-
-}
-
+/*FORSIDE*/
 
 /*/
+#frontpage img {
+	display: flex;
+	position: relative;
+	top: 4vw;
+	left: 12vw;
+	width: 80%;
+	height: 50vw;
+}
+/*/
+
+#frontpage img {
+	display: flex;
+	position: relative;
+	background-size: contain;
+	background-repeat: repeat;
+
+}
 
 
+footer {
+	position: relative;
+	bottom: -75vw;
+	left: 2vw;
+}
 
 /*Burgermenu*/
 
@@ -405,20 +616,6 @@ img {
 	margin: 0;
 }
 
-/* html {
-	font-size: 62.5%;
-	background-color: #bfbabe;
-
-}
-
-*/
-
-
-img {
-	width: 100%;
-}
-
-
 .hidden {
 	display: none;
 }
@@ -426,13 +623,13 @@ img {
 nav {
 	justify-content: space-between;
 	display: flex;
-	background-color: #5d4954;
-	min-height: 5vw;
+	background-color: #8FBBC4;
+	min-height: 4vw;
 	width: 100vw;
 }
 
 ul {
-	padding: 2;
+	padding: 4;
 }
 
 /* Menu Mobil */
@@ -440,16 +637,16 @@ ul {
 #menuMobil a {
 	display: block;
 	text-decoration: none;
-	color: rgba(232, 231, 231, 0.96);
+	color: white;
 	margin-top: 14vw;
 	margin-bottom: 10vw;
-	font-family: canada-type-gibson, sans-serif;
+	font-family: monserrat, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
 
 #menuknapMobil {
-	z-index: 10;
+	z-index: 20;
 	width: 8vw;
 	height: 8vw;
 	margin-right: 5vw;
@@ -457,14 +654,14 @@ ul {
 }
 
 #menuMobil {
-	width: 50%;
-	top: 7.4vh;
+	width: 100%;
+	top: 10vh;
 	right: 0;
 	min-height: 100vh;
 	position: absolute;
 	z-index: 6;
-	font-size: 2.5rem;
-	background-color: #5d4954;
+	font-size: 1rem;
+	background-color: #8FBBC4;
 	transition: .3s;
 	text-align: center;
 	padding-bottom: 20vw;
@@ -488,44 +685,26 @@ ul {
 #menuDesktop a {
 	text-decoration: none;
 	font-size: 1em;
-	color: rgba(232, 231, 231, 0.96);
+	color: antiquewhite;
 	padding: 4rem;
-	/*    font-family: 'Montserrat',
-    sans-serif;*/
+	font-family: 'Montserrat',
+		sans-serif;
+	*
 }
 
+#menuDesktop a:hover {
+	color: hotpink;
 
-/*.logo {
-    background-image: url(billeder/512x512.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 8vw;
-    height: 8vw;
+}
 
-}*/
 
 .logo h4 {
 	font-size: 1em;
-	color: rgba(232, 231, 231, 0.96);
-	margin-top: 2vw;
+	color: white;
+	margin-top: 1.5vw;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 6px;
 }
-
-/*FOOTER
-
-footer {
-	width: 100vw;
-	height: 5vh;
-	background-color: #2d2d2f;
-	font-size: 1rem;
-	text-align: center;
-	color: rgba(255, 255, 255, 0.96);
-	padding-top: 1rem;
-
-}
-**/
-
 
 
 @media only screen and (max-width: 768px) {
@@ -545,9 +724,9 @@ footer {
 
 
 	.logo h4 {
-		font-size: 1.5rem;
-		color: rgba(232, 231, 231, 0.96);
-		margin-top: 6vw;
+		font-size: 1.1rem;
+		color: white;
+		margin-top: 1vw;
 		font-family: 'Montserrat', sans-serif;
 		letter-spacing: 2px;
 		margin-left: 2vw;
@@ -568,8 +747,8 @@ footer {
 
 
 	#menuDesktop {
-		width: 100vw;
-		padding-right: 10rem;
+		width: 100%;
+		padding-right: 15rem;
 		min-height: 2vw;
 		display: flex;
 		justify-content: space-around;
