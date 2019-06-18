@@ -8,15 +8,19 @@ img {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+
+}
+
+body {
+	background-color: antiquewhite;
 }
 
 
+/*rgba(255, 192, 203, 0.24);*/
 /* --------------  PORTFOLIE  ----- */
 
 
-body {
-	background-color: rgba(255, 192, 203, 0.24);
-}
+
 
 
 #portfolie .container {
@@ -232,11 +236,6 @@ body {
 	font-weight: 400;
 	font-style: normal;
 
-}
-
-
-img {
-	width: 100%;
 }
 
 /*--------------------------CV--------------------*/
@@ -593,11 +592,21 @@ img {
 }
 
 
-
 footer {
-	position: relative;
-	bottom: -75vw;
-	left: 2vw;
+	width: 100%;
+	height: 5vh;
+	background-color: #8BAC78;
+	font-size: 1em;
+	text-align: center;
+
+	width: 100vw;
+	min-height: 2vw;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+	top: .5vw;
+
+
 }
 
 /*Burgermenu*/
@@ -699,8 +708,6 @@ ul {
 #menuMobil img {
 	margin-left: 90px;
 	margin-top: 1vw;
-
-
 }
 
 
