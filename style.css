@@ -13,15 +13,15 @@ img {
 
 body {
 	background-color: antiquewhite;
+	font-weight: 400;
+	font-style: normal;
 }
 
+html {
+	font-family: montserrat, sans-serif;
+}
 
-/*rgba(255, 192, 203, 0.24);*/
 /* --------------  PORTFOLIE  ----- */
-
-
-
-
 
 #portfolie .container {
 	display: flex;
@@ -30,7 +30,6 @@ body {
 	height: 50vh;
 
 }
-
 
 #portfolie .container2 {
 	display: flex;
@@ -42,8 +41,6 @@ body {
 }
 
 #portfolie .column1 {
-	flex-grow: 0;
-	flex-basis: 2px;
 	display: flex;
 	margin-left: 4vw;
 	margin-top: 2vw;
@@ -52,8 +49,6 @@ body {
 }
 
 #portfolie .column2 {
-	flex-grow: 0;
-	flex-basis: 20px;
 	display: flex;
 	margin-left: 2vw;
 	margin-top: 2vw;
@@ -62,8 +57,6 @@ body {
 }
 
 #portfolie .column3 {
-	flex-grow: 0;
-	flex-basis: 20px;
 	display: flex;
 	margin-left: 4vw;
 	margin-top: 2vw;
@@ -72,8 +65,6 @@ body {
 }
 
 #portfolie .column4 {
-	flex-grow: 0;
-	flex-basis: 20px;
 	display: flex;
 	margin-left: 2vw;
 	margin-top: 2vw;
@@ -195,60 +186,32 @@ body {
 /*/ FONT /*/
 
 #portfolie h3 {
-	font-size: 1.3rem;
+	font-size: 1.5em;
 	font-family: montserrat, sans-serif;
-	font-weight: ;
+	font-weight: 400;
 	font-style: normal;
 	color: white;
 	text-align: center;
-	top: 150px;
+	top: 160px;
 	position: relative;
 
 }
-
-
-
 
 .txt h3 {
 	border: 1px solid #fff;
 	border-left: 0;
 	border-right: 0;
-	letter-spacing: .3em;
-	padding: 14px 30px;
+	letter-spacing: .2em;
+	padding: 14px 10px;
 	position: relative;
 }
 
 
-
-
 /* OM MIG */
-
-html {
-	font-family: montserrat, sans-serif;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-body {
-
-	font-weight: 400;
-	font-style: normal;
-
-}
-
-/*--------------------------CV--------------------*/
 
 #om_mig {
 	display: block;
 	background-size: contain;
-	/*
-    margin: 0;
-    padding: 0;
-*/
-	flex-grow: 2;
-	flex-basis: 1;
 
 }
 
@@ -286,21 +249,13 @@ body {
 	top: -3vw;
 	display: block;
 	flex-direction: row;
-	flex-basis: 1;
-	flex-grow: 2;
 
 }
 
 .erfaring img {
-	padding-bottom: -10vw;
-	padding-bottom: -10vw;
-	padding-right: -10vw;
-	line-height: 10em;
-	padding-top: 3vw;
+	padding-top: 2vw;
 	flex-direction: row;
 	position: relative;
-	flex-grow: 2;
-	flex-basis: 1;
 
 
 }
@@ -311,12 +266,6 @@ body {
 	display: block;
 	background-color: rgba(255, 192, 203, 0.24);
 	background-size: contain;
-	/*
-    margin: 0;
-    padding: 0;
-*/
-	flex-grow: 2;
-	flex-basis: 1;
 
 }
 
@@ -335,7 +284,6 @@ body {
 	text-align: center;
 	padding-left: 15vw;
 	padding-right: 15vw;
-	line-height: 2em;
 	padding-top: 2vw;
 	font-size: 1em;
 	flex-direction: row;
@@ -344,7 +292,6 @@ body {
 
 }
 
-#animation .col {}
 
 #animation .box2 {
 
@@ -355,24 +302,26 @@ body {
 	top: -2vw;
 	display: block;
 	flex-direction: row;
-	flex-basis: 1;
-	flex-grow: 2;
 
 }
 
+/*LINKS*/
 
-#animation a:link {
-	color: cornflowerblue;
+a:link {
+
+	color: orange;
+
+}
+
+a:visited {
+	color: orange;
+}
+
+a:hover {
+	color: darkgreen;
 }
 
 
-#animation a:visited {
-	color: violet;
-}
-
-#animation a:hover {
-	color: mediumslateblue;
-}
 
 /*CONTENTTEMA*/
 
@@ -380,12 +329,6 @@ body {
 	display: block;
 	background-color: rgba(255, 192, 203, 0.24);
 	background-size: contain;
-	/*
-    margin: 0;
-    padding: 0;
-*/
-	flex-grow: 2;
-	flex-basis: 1;
 
 }
 
@@ -423,24 +366,6 @@ body {
 	top: -3vw;
 	display: block;
 	flex-direction: row;
-	flex-basis: 1;
-	flex-grow: 2;
-
-}
-
-
-/* unvisited link */
-#content a:link {
-	color: cornflowerblue;
-}
-
-
-#content a:visited {
-	color: violet;
-}
-
-#content a:hover {
-	color: mediumslateblue;
 }
 
 /*UX*/
@@ -449,12 +374,6 @@ body {
 	display: block;
 	background-color: rgba(255, 192, 203, 0.24);
 	background-size: contain;
-	/*
-    margin: 0;
-    padding: 0;
-*/
-	flex-grow: 2;
-	flex-basis: 1;
 
 }
 
@@ -492,25 +411,8 @@ body {
 	top: -3vw;
 	display: block;
 	flex-direction: row;
-	flex-basis: 1;
-	flex-grow: 2;
 
 }
-
-/* unvisited link */
-#ux a:link {
-	color: cornflowerblue;
-}
-
-
-#ux a:visited {
-	color: violet;
-}
-
-#ux a:hover {
-	color: mediumslateblue;
-}
-
 
 /*WEB*/
 
@@ -518,13 +420,6 @@ body {
 	display: block;
 	background-color: rgba(255, 192, 203, 0.24);
 	background-size: contain;
-	/*
-    margin: 0;
-    padding: 0;
-*/
-	flex-grow: 2;
-	flex-basis: 1;
-
 }
 
 #web h1 {
@@ -561,51 +456,33 @@ body {
 	top: -3vw;
 	display: block;
 	flex-direction: row;
-	flex-basis: 1;
-	flex-grow: 2;
 
 }
 
-/* unvisited link */
-#web a:link {
-	color: cornflowerblue;
-}
-
-
-#web a:visited {
-	color: violet;
-}
-
-#web a:hover {
-	color: mediumslateblue;
-}
-
-
-
+x
 /*FORSIDE*/
 
 #frontpage img {
 	display: flex;
 	position: relative;
 	background-size: contain;
-	background-repeat: repeat;
+
 }
 
 
 footer {
 	width: 100%;
-	height: 5vh;
+	height: 4vh;
 	background-color: #8BAC78;
-	font-size: 1em;
+	font-size: 1rem;
 	text-align: center;
-
 	width: 100vw;
 	min-height: 2vw;
 	display: flex;
 	justify-content: space-around;
 	padding-top: 10px;
 	top: .5vw;
-
+	color: antiquewhite;
 
 }
 
@@ -621,13 +498,10 @@ nav {
 	justify-content: space-between;
 	display: flex;
 	background-color: #8BAC78;
-	min-height: 4vw;
-	width: 100vw;
+	min-height: 2vw;
+	width: 100%;
 }
 
-ul {
-	padding: 4;
-}
 
 /* Menu Mobil */
 
@@ -643,42 +517,47 @@ ul {
 }
 
 #menuknapMobil {
-	z-index: 20;
-	width: 6vw;
-	height: 6vw;
+	z-index: 10;
+	width: 7vw;
 	margin-right: 5vw;
-	margin-top: 4rem;
+	margin-top: 6rem;
 
 }
 
 #menuMobil {
 	width: 100%;
-	top: 9.3vh;
-	right: 0;
-	min-height: 100vh;
+	top: 8vh;
 	position: absolute;
 	z-index: 6;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	background-color: #8BAC78;
-	transition: .3s;
+	transition: .4s;
 	text-align: center;
-	padding-bottom: 20vw;
+	padding-bottom: 29rem;
 	transition: transform 2s ease-in;
 }
 
 
+#menuMobil img {
+	margin: 100px
+}
+
+/*MENUDESKTOP*/
+
 #menuDesktop {
 	width: 100vw;
-	min-height: 2vw;
 	display: flex;
 	justify-content: space-around;
 
 }
 
 .navigation {
-	margin-top: 1.5vw;
-	letter-spacing: 3px;
+	letter-spacing: 7px;
+	font-family: 'montserrat', sans-serif;
+	margin-left: 4vw;
+	margin-top: 1.8vw;
 }
+
 
 #menuDesktop a {
 	text-decoration: inherit;
@@ -695,14 +574,20 @@ ul {
 
 }
 
+#menuDesktop h4:hover {
+	color: #FF9C6B;
+}
+
 
 .logo h4 {
-	font-size: 1em;
+	font-size: 1rem;
 	color: white;
-	margin-top: 1.5vw;
+	margin-top: 0.5vw;
 	font-family: 'Montserrat', sans-serif;
-	letter-spacing: 6px;
+	letter-spacing: 4px;
+	margin-right: 7vw;
 }
+
 
 
 #menuMobil img {
@@ -720,22 +605,14 @@ ul {
 
 	}
 
-	.navnTekst {
-		padding-top: 55vw;
-		text-align: center;
-		font-size: 2rem;
-	}
-
-
 
 	.logo h4 {
-		font-size: 1.1rem;
+		font-size: 1rem;
 		color: white;
-		margin-top: 1vw;
+		margin-top: 0.5vw;
 		font-family: 'Montserrat', sans-serif;
-		letter-spacing: 2px;
-		margin-left: 2vw;
-		padding-left: 0;
+		letter-spacing: 7px;
+		margin-left: 4vw;
 
 	}
 
@@ -753,7 +630,7 @@ ul {
 
 	#menuDesktop {
 		width: 100%;
-		padding-right: 15rem;
+		padding-right: 10rem;
 		min-height: 2vw;
 		display: flex;
 		justify-content: space-around;
